@@ -1,0 +1,249 @@
+
+<!-- from http://graphics8.nytimes.com/css/0.1/screen/common/layout.css -->
+.runaroundLeft {
+  float: left;
+  clear: left;
+  display: inline;
+  margin: 2px 6px 6px 0;
+}
+<!-- end from -->
+
+<!-- Snippets of Josh's Code -->
+.outer_frame {border: solid 1px black;}
+.black_bar {background-color: #000000; color: white; font: 8pt Arial;}
+.small {color: black; font: 8pt Arial;}
+.black_bar a {color: white; text-decoration: none;}
+<!-- End Josh's Code -->
+
+
+#menu {
+width: 100%;
+background: #eee;
+float: center;
+}
+
+#menu ul {
+list-style: none;
+margin: 0;
+padding: 0;
+width: 17em;
+float: left;
+}
+
+#menu a, #menu h2 {
+font:  11px/16px arial, helvetica, sans-serif;
+display: block;
+border-width: 1px;
+border-style: solid;
+border-color: #ccc #888 #555 #bbb;
+margin: 0;
+padding: 2px 3px;
+}
+
+#menu h2 {
+color: #fff;
+background: #000;
+text-transform: uppercase;
+}
+
+#menu a {
+color: #fff;
+background: #000;
+text-decoration: none;
+}
+
+#menu a:hover {
+color: #h00;
+background: #000;
+text-decoration: underline;
+}
+
+#menu li {
+	font-family: "Helvetica", serif;
+	position: relative;
+	letter-spacing: .2em;
+	word-spacing: 1 em; 
+}
+
+#menu ul ul {
+position: absolute;
+z-index: 500;
+}
+
+#menu ul ul ul {
+position: absolute;
+top: 0;
+left: 100%;
+}
+
+
+#mid #lh #box   {
+width: 370px;
+float: left;
+margin: 0px;
+margin-top: 1px;
+margin-bottom: 10px;
+padding: 7px;
+
+border: 1px solid #000;
+border-left: none;
+}
+
+#mid #rh #box   {
+        width: 370px;
+
+        float: right;
+        margin: 0px;
+        margin-top: 1px;
+        margin-bottom: 10px;
+        padding: 7px;
+
+        border: 1px solid #000;
+        border-right: none;
+        }
+
+
+div#menu ul ul,
+div#menu ul li:hover ul ul,
+div#menu ul ul li:hover ul ul
+{display: none;}
+
+
+div#menu ul li:hover ul,
+div#menu ul ul li:hover ul,
+div#menu ul ul ul li:hover ul
+{display: block;}
+
+
+hr {
+border: none;
+background: black;
+color: black;
+height: 1px;
+}
+
+
+
+p {
+font-family:Trebuchet MS,Trebuchet,Arial,Verdana,Sans-serif; 
+leter-spacing: normal;
+word-spacing: normal;
+font-size: 78%;
+clear: both;
+color: #333
+text-align= left;
+background-color:#fff
+margin:0 0 .75em;
+line-height:1.6em;
+}
+
+th {
+font-family:Trebuchet MS,Trebuchet,Arial,Verdana,Sans-serif;
+leter-spacing: normal;
+word-spacing: normal;
+clear: both;
+color: #333
+text-align= left;
+background-color:#fff
+
+line-height:1.6em;
+}
+
+
+.inlinePhoto {
+font-family:Trebuchet MS,Trebuchet,Arial,Verdana,Sans-serif;
+leter-spacing: normal;
+font-size: 78%;
+word-spacing: normal;
+clear: both;
+color: #333
+text-align= left;
+background-color:#fff
+margin:0 0 .75em;
+line-height:1.6em;
+align: left;
+}
+
+
+table {
+text-indent: 0px;
+}
+
+
+#photos {
+width: 100%;
+background: #eee;
+float: center;
+}
+
+
+
+#photos ul {
+list-style: none;
+margin: 0;
+padding: 0;
+width: 20em;
+float: center;
+}
+
+#photos a, #photos h2{
+font: 11/16px arial, helvetica, sans-serif;
+display: block;
+border-width: 1px; 
+border-style: solid;
+border-color: #ccc #888 #555 #bbb
+margin: 0;
+padding: 2px 3px;
+}
+
+#photos li {
+        font-family: "Helvetica", sans-serif;
+        position: relative;
+        letter-spacing: .2em;
+        word-spacing: 1 em;
+}
+
+#photos a {
+color: #fff;
+background: #000;
+text-decoration: none;
+}
+
+#photos a:hover {
+color: #h00;
+background: #000;
+text-decoration: underline;
+}
+
+h1 {
+letter-spacing: .5em;
+font-family: "Century Gothic";
+}
+
+h2 {
+letter-spacing: .3em; 
+}
+
+#resume p {
+font-family:  "Helvetica", sans-serif;
+
+}
+
+<!--[if IE]>
+<style type="text/css" media="screen">
+body {
+behavior: url(csshover.htc);
+font-size: 100%;
+font: Helvetica
+}
+
+#menu ul li {float: left; width: 100%;}
+#menu ul li a {height: 1%;}
+
+#menu a, #menu h2 {
+font: bold 0.7em/1.4em arial, helvetica, sans-serif;
+}
+
+<![endif]-->
+
+

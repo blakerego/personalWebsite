@@ -1,0 +1,35 @@
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+  <!--#include virtual="header.html" -->
+
+  <head>
+    <div align="center">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>Google Maps JavaScript API Example</title>
+    <script src="
+http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAA2wKPOjqGlt0xKgIANvKA3xRSqdqQRkxOJpPhOt86FzsTT-aGDhQwJ61RI_7XE_rj-ISsWKX604XCBg"
+      type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+    //<![CDATA[
+
+    function load() {
+      if (GBrowserIsCompatible()) {
+        var map = new GMap2(document.getElementById("map"));
+
+        map.setCenter(new GLatLng(25.8, -80.13), 13);
+      }
+    }
+
+    //]]>
+    </script>
+  </head>
+  <body onload="load()" onunload="GUnload()">
+    <div id="map" style="width: 500px; height: 300px"></div>
+
+    </div>
+  </body>
+</html>

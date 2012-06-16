@@ -1,0 +1,26 @@
+<html>
+
+Hello everybody!
+<script type="text/javascript" src="MacStyleDock.js"></script>
+<div id="dock"></div>
+
+<script type="text/javascript" >
+  var dock = new MacStyleDock(
+      document.getElementById('dock'),
+      [
+        {
+          name      : '1',
+          extension : '.jpg',
+          sizes     : [32, 64],
+          onclick   : function(){
+                        window.location = '1.jpg';
+                      }
+        }
+      ],
+      32,
+      64,
+      2.5);
+</script>
+
+
+</html>
