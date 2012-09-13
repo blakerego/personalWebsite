@@ -69,7 +69,12 @@ Python: mostly in regards to my <a href="http://www.blakerego.com/showFFT.html">
 	    <td width="500" valign="top">
 	      <p><b>Software Engineer</b><br/>
 		Nov 2011 - present<br/>
-		Technologies Used: C#- .NET 4, MVC3 asp.net, Silverlight; Java- Spring, Maven, Hibernate; Bosch Rules Engine
+		Technologies Used: C#- .NET 4, MVC3 asp.net, Entity Framework, Silverlight; Java- Spring, Maven, Hibernate; <br/>
+&bull; Designed and implemented heat map visualization algorithms to view electrical structure loads on map applications for utility companies. <br/>
+
+&bull; Spoke with clients bi-weekly to demonstrate progress on our applications, record feedback on existing programs and discuss new feature requests. <br/>
+
+&bull; Worked on the network operation center for our electrical system. I primarily worked on the communication protocol (SOAP) between our system and others.
 	      </p>
 	      <br>
 	    </td>
