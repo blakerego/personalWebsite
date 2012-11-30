@@ -1,4 +1,4 @@
-<!--#include virtual="header.html" -->
+<!--#include virtual="/header.html" -->
 
 <body>
 <div id="resume">
@@ -296,5 +296,5 @@ Javascript, CSS. <br><br>
 
 </div>
 
-<!--#include virtual="footer.html"-->
+<!--#include virtual="/footer.html"-->
 

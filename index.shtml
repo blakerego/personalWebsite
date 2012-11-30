@@ -1,4 +1,4 @@
-<!--#include virtual="header.html" -->
+<!--#include virtual="/header.html" -->
 
 <h1>Hello World</h1>
 
