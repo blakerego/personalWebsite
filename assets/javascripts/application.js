@@ -11,5 +11,14 @@ $('.header_link').hover(
 		}
 	);
 
-	
-$('.container').effect("bounce", { times: 1, distance:10}, "slow");
+$('.header_link').click(
+	function()
+	{
+		// $('.container').effect("explode", {}, "fast");
+	});
+
+
+$("#content_container").css("display", "none");
+$("#content_container").fadeIn(2000);
+// $('.container').effect("bounce", { times: 1, distance:10}, "slow");
+
