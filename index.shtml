@@ -1,5 +1,18 @@
 <!--#include virtual="/header.html" -->
 
-<h1>Hello World</h1>
+<h1>Welcome</h1>
+
+
+<div id="portfolio_link" class="link">
+	Portfolio
+</div>
+
+<div id="resume_link" class="link">
+	Resume / CV
+</div>
+
+<div id="contact_link" class="link">
+	Contact
+</div>
 
 <!--#include virtual="footer.html" -->
