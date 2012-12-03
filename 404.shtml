@@ -1,2 +1,4 @@
-<!-- SHTML Wrapper - 404 Not Found -->
-<!--#exec cgi="/cgi-sys/fourohfour.cgi" -->
+
+<!--#include virtual="/header.html" -->
+<p>I'm sorry, the page you're looking for could not be found. 404.</p>
+<!--#include virtual="footer.html" -->
