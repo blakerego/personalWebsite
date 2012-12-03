@@ -2,17 +2,40 @@
 
 <h1>Welcome</h1>
 
+<div class="row-fluid">
+	<ul class="thumbnails">
 
-<div id="portfolio_link" class="link">
-	Portfolio
-</div>
+		<li class="span6">
+	  	<div class="thumbnail">
+	  		<img src="assets/images/projects.png" alt>
+	  		<div class="caption">
+	  			<h3>Projects</h3>
+	  			<p>
+	  				View a collection of my projects. Topics range from web applications, to hobby hardware interfaces, to research in the natural sciences. 
+	  			</p>
+	  			<p>
+	  				<a href="projects.shtml" class="btn btn-primary btn-large">Read On</a>
+	  			</p>
+	  		</div>
+	  	</div>	  	
+	  </li>
 
-<div id="resume_link" class="link">
-	Resume / CV
-</div>
+		<li class="span6">
+	  	<div class="thumbnail">
+	  		<!-- <img src="assets/images/projects.png" alt> -->
+	  		<div class="caption">
+	  			<h3>Connect</h3>
+	  			<p>
+	  				Connect with me using your favorite medium. 
+	  			</p>
+	  			<p>
+	  				<a href="contact.shtml" class="btn btn-primary btn-large">Connect</a>
+	  			</p>
+	  		</div>
+	  	</div>	  	
+	  </li>
 
-<div id="contact_link" class="link">
-	Contact
+	</ul>
 </div>
 
 <!--#include virtual="footer.html" -->

@@ -2,5 +2,12 @@
 
 <h1>Say Hello</h1>
 
-<a href="https://github.com/blakerego"><img src="https://raw.github.com/github/media/master/octocats/octocat.png" alt="Check me out on github"></a>
+<!-- <a href="https://github.com/blakerego"><img src="https://raw.github.com/github/media/master/octocats/octocat.png" alt="Check me out on github"></a> -->
+<ul>
+	<li><a href="mailto:blake.rego@gmail.com">-->GMail</a></li>
+	<li><a href="https://github.com/blakerego">-->Github</a></li>
+</ul>
+
+
+
 <!--#include virtual="/footer.html" -->
