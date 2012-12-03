@@ -12,12 +12,10 @@
 
 <div id = "contact_me">
       <p align="center" class="style1">
-	 Blake Jon Rego<br>
-        203 Rivington St, Apt. 4K<br>
-        New York, NY 10002<br>
-        786.554.9821 <br>
+	Blake Jon Rego<br>
+	New York, NY 10002<br>
 	blake.rego@gmail.com<br>
-        bjr2101@columbia.edu</p>
+  bjr2101@columbia.edu</p>
 </div>
 
 
@@ -51,7 +49,7 @@ C# Desktop: Model-view-presenter based Windows platform applications using libra
 C# Web: MVC3 asp.net applications with Entity Framework back-end.  <br />
 Java Web: Spring Framework with Hibernate back-end. <br /> 
 Ruby: using Ruby on Rails web framework. <br />
-Python: mostly in regards to my <a href="http://www.blakerego.com/showFFT.html">lights project</a>. 
+Python: mostly in regards to my <a href="showFFT.shtml">lights project</a>. 
 </p>
 
           </tr>
@@ -222,7 +220,7 @@ Javascript, CSS. <br><br>
 	  Precise Positioning of Carbon Nanotubes by AC Dielectrophoresis  Using Floating Posts (invited paper)</em><br>
           Applied Physics A 86, 415-419 <br>
    	   S. Banerjee, B. White, L. Huang, B. J. Rego, S. O.Brien, and I. P. Herman 
-	   <br><a href="http://www.blakerego.com/Documents/app_phys_a.pdf">
+	   <br><a href="assets/docs/app_phys_a.pdf">
 	    Download full-text version: PDF</a><br>
 	   </p></td>
           </tr>
@@ -242,7 +240,7 @@ Javascript, CSS. <br><br>
 		<br>(Also in the December 18, 2006 issue of Virtual Journal of Nanoscale Science & 
 		Technology at http://www.vjnano.org )<br>
                 S. Banerjee, B. White, L. Huang, B. J. Rego, S. O.Brien, and I. P. Herman<br>
-		<a href="http://www.blakerego.com/Documents/jvs.pdf"> 
+		<a href="assets/docs/jvs.pdf"> 
 		Download full-text version: PDF</a><br>
 		<a href="http://avspublications.org/jvstb/resource/1/jvtbd9/v24/i6/p3173_s1">
 
