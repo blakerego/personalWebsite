@@ -1,3 +1,7 @@
+$("#content_container").css("display", "none");
+$("#content_container").fadeIn(1000);
+
+
 $('.header_link').hover(
 		function()
 		{
@@ -17,8 +21,5 @@ $('.header_link').click(
 		// $('.container').effect("explode", {}, "fast");
 	});
 
-
-$("#content_container").css("display", "none");
-$("#content_container").fadeIn(2000);
 // $('.container').effect("bounce", { times: 1, distance:10}, "slow");
 
