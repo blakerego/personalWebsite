@@ -1,4 +1,4 @@
-$("#content_container").css("display", "none");
+//$("#content_container").css("display", "none");
 $("#content_container").fadeIn(1000);
 
 
@@ -6,7 +6,7 @@ $('.header_link').hover(
 		function()
 		{
 			/// On-Hover, scale up the link.
-			$(this).transition({ scale: '1.2'});
+			$(this).transition({ scale: '1.1'});
 		}, 
 		function()
 		{
