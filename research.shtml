@@ -8,7 +8,7 @@
 
         <br><div align="center"><h2>Center for Molecular Modeling<br>
         University of Pennsylvania</h2><br><br>
-        <img src="http://www.blakerego.com/Graphics/linkerzoom.jpg">
+        <img src="assets/images/linkerzoom.jpg">
         <br><font size="2">Figure: Visualization of the coxsackie adenovirus receptor (CAR)
         and carbon nanotube simulation setup. The enlarged portion is a linker site in which
         the protein is covalently bonded to the nanotube.
@@ -75,7 +75,7 @@
 
 	<div align="center">  
 	<br><h2>Nanoscale Engineering Center<br>Columbia University</h2><br><br>
-	<img src="http://www.blakerego.com/Graphics/ntcolumbia1.jpg"><br>
+	<img src="assets/images/ntcolumbia1.jpg"><br>
 	<font size="2">Scanning Electron Microscope image of a carbon nanotube device in which 
 	the nanotubes align themselves with the 'floating' gold posts.<br>
 	Source:</font><a href="http://www.blakerego.com/Documents/app_phys_a.pdf" size="2">
@@ -152,7 +152,7 @@
 	     as well as grain coarsening in  the slow-heating method. 
 	     </p>
 	     <p>
-	     For the complete report, click <a href="/~bjr2101/Documents/REU Final.pdf">here</a>.
+	     For the complete report, click <a href="assets/docs/REUFinal.pdf">here</a>.
 	     </p> 
 	</div>
 
