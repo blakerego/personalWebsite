@@ -1,10 +1,8 @@
-<html>
-<!--#include virtual="header.html" -->
+<!--#include virtual="/header.html" -->
 
-<br>
-<div align="center">
+
 <h1> Twitter Search Tool </h1>
-</div>
+
 
 <img src="http://www.blakerego.com/twitterScreenShot.jpg">
 
@@ -18,16 +16,15 @@ to download, click <a href="http://www.blakerego.com/twitDateRange.zip">here(mod
 
 As a pre-requisite, you may need to install the .net 2.0 framework. This is available <a href="http://www.microsoft.com/downloads/details.aspx?familyid=5b2c0358-915b-4eb5-9b1d-10e506da9d0f&displaylang=en">here</a>.</br>
 
+<h2>Source Code</h2>
+Full source code available on github <a href="https://github.com/blakerego/win_twitter">here</a>.
+
 <h2>Usage</h2>
 This tool performs simple searches using the Twitter API. Simply type search terms into the search box and click 'Search'. The results will be placed into the grid below. Results can be exported to a .csv file using the 'export' button.
-
 
 
 <h2>Limitations</h2>
 The twitter API only allows you to pull back 100 results at a time. To get more results, incrment the page and click 'go to page'. Furthermore, the Twitter API only allows you to make up to 250 queries per hour. So if it stops working, do something else for a while and then come back to it later. For additional limitations, see this <a href="https://dev.twitter.com/docs/using-search">page</a>.
 
 
-<br>
-
-<!-- #include virtual="footer.html" -->
-</html>
+<!--#include virtual="/footer.html" -->
