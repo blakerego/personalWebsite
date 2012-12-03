@@ -1,12 +1,21 @@
 <!--#include virtual="/header.html" -->
 
-<h1>Say Hello</h1>
+<div class="hero-unit">
+  <h1>Hire Me</h1>
+  <p>I'm a technologist open to exciting problems, with an expertise in web application development.</p>
+  <p>
+    <a class="btn btn-primary btn-large" href="cv.shtml">Full Work Summary</a>
+    <a class="btn btn-large" href="RegoResume.pdf">Resume</a>
+  </p>
+	<ul>
+		<li><a href="mailto:blake.rego@gmail.com">-->GMail</a></li>
+		<li><a href="https://github.com/blakerego">-->Github</a></li>
+	</ul>
+  
+</div>
 
 <!-- <a href="https://github.com/blakerego"><img src="https://raw.github.com/github/media/master/octocats/octocat.png" alt="Check me out on github"></a> -->
-<ul>
-	<li><a href="mailto:blake.rego@gmail.com">-->GMail</a></li>
-	<li><a href="https://github.com/blakerego">-->Github</a></li>
-</ul>
+
 
 
 
