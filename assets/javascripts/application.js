@@ -1,5 +1,5 @@
 //$("#content_container").css("display", "none");
-$("#content_container").fadeIn(1000);
+$("#content_container").fadeIn(500);
 
 
 $('.header_link').hover(
