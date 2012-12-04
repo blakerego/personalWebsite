@@ -1,5 +1,6 @@
-//$("#content_container").css("display", "none");
+
 $("#content_container").fadeIn(500);
+//$("#content_container").toggle("explode", {}, "slow");
 
 
 $('.header_link').hover(
@@ -14,12 +15,3 @@ $('.header_link').hover(
 			$(this).transition({ scale: '1'});
 		}
 	);
-
-$('.header_link').click(
-	function()
-	{
-		// $('.container').effect("explode", {}, "fast");
-	});
-
-// $('.container').effect("bounce", { times: 1, distance:10}, "slow");
-

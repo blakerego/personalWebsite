@@ -3,294 +3,226 @@
 <body>
 <div id="resume">
 
-<!--
-
-    <div align="center"><h1>Curriculum Vita&eacute</h1></div>
--->
 
 <!-- Contact Me-->
-
-<div id = "contact_me">
-      <p align="center" class="style1">
-	Blake Jon Rego<br>
-	New York, NY 10002<br>
-	blake.rego@gmail.com<br>
-  bjr2101@columbia.edu</p>
+<div class="hero-unit" align="center">
+	<h1>Blake Jon Rego</h1>
+	<p>New York, NY</p>
+	<p><a href="mailto:blake.rego@gmail.com">blake.rego@gmail.com</a></p>
+	<p><a href="mailto:bjr2101@columbia.edu">bjr2101@columbia.edu</a></p>
+	<a href="RegoResume.pdf" class="btn btn-large btn-primary">Download abridged .pdf</a>
 </div>
 
 
 <!-- Education -->
+<hr>
 <div id = "education">
-
-      <p align="center" class="style10"><span class="style5"><b>Education</b></span></p>
-      <table border="0" cellpadding="0" cellspacing="0"> 
-        <tr>
-          <td width="208" valign="top"><p align="center"><strong>Columbia University </strong></p></td>
-          <td width="510" valign="top">
-		<p>
-		Class of 2008<br>Bachelor of Science<br>New York, NY<br>
-		Major: Applied Physics<br> Minor: Applied Mathematics</p>
-		</td>
-	 </tr>
-      </table>
+  <h2>Education</h2>
+	<div class="row-fluid">
+		<div class="span3">
+			<h4>Columbia University</h4>
+		</div>
+		<div class="span9">
+			<p>School of Engineering and Applied Science</p>
+			<p>Graduated May 2008 with a Bachelor of Science.</p>		
+			<p>Majored in applied physics with a minor in applied mathematics</p>
+		</div>
+	</div>
 </div>
 
 <!-- Technical Summary -->
- 
+<hr>
 <div id = "technical_summary">
-        <p align="center">&nbsp;</p>
-        <p align="center" class="style5"><strong>Technical Summary</strong></p>
-        <table border="0" cellpadding="0" cellspacing="0">
-          <tr>
-            <td width="208" valign="top" align="center"><p><strong>Technical Skills</strong></p></td>
-            <td width="510" valign="top">		
-<p>
-C# Desktop: Model-view-presenter based Windows platform applications using libraries such as Infragistics and DevExpress. <br />
-C# Web: MVC3 asp.net applications with Entity Framework back-end.  <br />
-Java Web: Spring Framework with Hibernate back-end. <br /> 
-Ruby: using Ruby on Rails web framework. <br />
-Python: mostly in regards to my <a href="showFFT.shtml">lights project</a>. 
-</p>
-
-          </tr>
-        </table>
+	<h2>Technical Summary</h2>
+	<div class="row-fluid">
+		<div class="span3">
+			<h4>Skills</h4>
+		</div>
+		<div class="span9">
+			<p>
+			C# Desktop: Model-view-presenter based Windows platform applications using libraries such as Infragistics and DevExpress. <br />
+			C# Web: MVC3 asp.net applications with Entity Framework back-end.  <br />
+			Java Web: Spring Framework with Hibernate back-end. <br /> 
+			Ruby: using Ruby on Rails web framework. <br />
+			Python: mostly in regards to my <a href="showFFT.shtml">lights project</a>. 
+			</p>
+		</div>
+	</div>
 </div>
 
 
 
 <!-- Experience -->
+<hr>
 <div id = "experience">
-     <p align="center" class = "style 10"><strong>Experience</strong></p>
-        <table border="0" cellpadding="0" cellspacing="0">
-	  <tr>
-	    <td width="218" valign="top" align=center><p><strong>Green Charge Networks</strong></p></td>
-	    <td width="500" valign="top">
-	      <p><b>Software Engineer</b><br/>
-		Nov 2011 - present<br/>
-		Technologies Used: C#- .NET 4, MVC3 asp.net, Entity Framework, Silverlight; Java- Spring, Maven, Hibernate; <br/>
-&bull; Designed and implemented heat map visualization algorithms to view electrical structure loads on map applications for utility companies. <br/>
+	<h2>Experience</h2>
 
-&bull; Spoke with clients bi-weekly to demonstrate progress on our applications, record feedback on existing programs and discuss new feature requests. <br/>
+	<div class="row-fluid">
+		<div class="span3">
+			<h4>Green Charge Networks</h4>
+		</div>
+		<div class="span9">
+			<p>Software Engineer</p>
+			<p>November 2011 - present</p>
+			<p>Technologies Used: C#- .NET 4, MVC3 asp.net, Entity Framework, Silverlight; Java- Spring, Maven, Hibernate;</p>
+			<ul>
+				<li>Designed and implemented heat map visualization algorithms to view electrical structure loads on map applications for utility companies. </li>
+				<li>Spoke with clients bi-weekly to demonstrate progress on our applications, record feedback on existing programs and discuss new feature requests. </li>
+				<li> Worked on the network operation center for our electrical system. I primarily worked on the communication protocol (SOAP) between our system and others.</li>
+			</ul>
+		</div>
+	</div>
 
-&bull; Worked on the network operation center for our electrical system. I primarily worked on the communication protocol (SOAP) between our system and others.
-	      </p>
-	      <br>
-	    </td>
-	  </tr>
-
-          <tr>
-            <td width="218" valign="top" align=center><p><strong>Advent Software - Tamale</strong></p></td>
-            <td width="500" valign="top">
-              <p><b>Software Engineer</b><br>
-              Aug 2008 - Nov 2011;   this includes 6 initial months as a QA (Test) Engineer<br>
+	<hr>
+	<div class="row-fluid">
+		<div class="span3">
+			<h4>Advent Software <br>(acquired Tamale Software)</h4>
+		</div>
+		<div class="span9">
+			<p>Software Engineer</p>
+      <p>Aug 2008 - Nov 2011;   this includes 6 initial months as a QA (Test) Engineer<br>
 	      Technologies Used: C#, Microsoft Visual Studio 2005 / 2008, .NET 2.0/3.0, Infragistics, NUnit, HTML,
-Javascript, CSS. <br><br>
-
-              <b> Responsible for the design, implementation and maintenance of the configurable workflow suite for our research management application. </b>
-	      <br> &bull; Principle design and implementation contributions for a template plug-in system for our deposit dialog and new entity modules. Model-View-Presenter (MVP) design patterns were used.
-	      <br> &bull; Major contributions to the persistence mechanisms of configuration data via object serialization to XML.
-	      <br> &bull; Principle contributions to the user interface of configuration dialogs.
-	      <br> &bull; Minor contributions to the implementation of features for Grid and Summary View modules.
-	      <br> &bull; Wrote unit tests using NUnit.
+Javascript, CSS.
+			</p>
+			<p>Responsible for the design, implementation and maintenance of the configurable workflow suite for our research management application. </p>
+			<ul>
+				<li>Principle design and implementation contributions for a template plug-in system for our deposit dialog and new entity modules. Model-View-Presenter (MVP) design patterns were used.</li>
+	      <li>Major contributions to the persistence mechanisms of configuration data via object serialization to XML.</li>
+	      <li>Principle contributions to the user interface of configuration dialogs.</li>
+	      <li>Minor contributions to the implementation of features for Grid and Summary View modules.</li>
+	      <li>Wrote unit tests using NUnit.</li>
+	    </ul>
 	      
-	      <br><br>
-	      <b> Periodic "Fire Marshall" Rotations</b>  
-	      <br> &bull; On call to field technical questions in order to aid client services deal with bugs that occur in the field. 
-	      <br> &bull; Troubleshoot issues on the s workstation under client pressure.
-	      <br> &bull; Deliver immediate solutions in the form of either a code patch or work-around instructions.
-	      <br> &bull; Propose long-term solutions to the development team.
+      <br>
+      <p> Periodic "Fire Marshall" Rotations</p> 
+      <ul>
+      	<li>On call to field technical questions in order to aid client services deal with bugs that occur in the field. </li>
+      	<li> Troubleshoot issues on the s workstation under client pressure.</li>
+      	<li> Deliver immediate solutions in the form of either a code patch or work-around instructions.</li>
+      	<li> Propose long-term solutions to the development team.</li>
+      </ul>
+      <br>
+      <p><a href="http://www.advent.com/solutions/by-product/tamale-rms">Advent - Tamale Software</a></p>
+		</div>
+	</div>
 
-	       
-              <br><br>
-	      <a href="http://www.advent.com/solutions/by-product/tamale-rms">Advent - Tamale Software</a>
-              </p>
-            </td>
+	<hr>
+	<div class="row-fluid">
+		<div class="span3">
+	  	<h4>Funny Garbage</h4>
+	  </div>
+	  <div class="span9">
+			<p>Front Side Programmer</p>
+			<p>February 2007 - May 2007</p>
+			<p>Developed web components using Adobe Flash - Action Script 3.0, css, html.</p>
+	    <p><a href="http://www.funnygarbage.com">Funny Garbage</a></p>
+	  </div>
+	</div>
 
+	<hr>
+	<div class="row-fluid">
+		<div class="span3">
+			<h4>Center for Molecular Modelling</h4>
+		</div>
+		<div class="span9">
+		  <p>Unviersity of Pennsylvania</p>
+			<p>Undergraduate Researcher - Department of Physics and Astronomy </p>
+			<p>June 2007 - August 2007 </p> 
+	    <p>Advisor: Professor Charlie Johnson</p>
+			<p>
+				In order to gain a deeper understanding of the interaction between carbon nanotubes and organic compounds, we turned our attention toward computational methods. In doing so, we performed molecular dynamics (MD) simulations on carbon nanotube structures and analyzed their iteraction with various biological molecules, including peptides, DNA and RNA. For our results, see the publications section below. 
+			</p>
+			<p><a href="http://www.lrsm.upenn.edu/~nanophys/">The Johnson Group Website</a></p>
+		</div>
+	</div>
 
-	  <tr>
-	    <td width="218" valign="top" align=center><p><strong>Funny Garbage</strong></p></td>
-	    <td width="500" valign="top">
-	      <b><p>Front Side Programmer</b><br>
-	      February 2007 - May 2007<br>
-	      Developed web components using Adobe Flash - Action Script 3.0, css, html.<br> 
-	      <a href="http://www.funnygarbage.com">Funny Garbage</a>
-	      </p>
-	    </td>
+	<hr>
+	<div class="row-fluid">
+		<div class="span3">
+			<h4>Nanoscale and Engineering Center</h4>
+		</div>
 
-          <tr>
-            <td width="218" valign="top" align = center><p><strong>Center for Molecular Modelling 
-	    </strong></p></td>
-	    <td width="500" valign="top">
-	        <p>Unviersity of Pennsylvania<br>
-		<b>Undergraduate Researcher - Department of Physics and Astronomy </b><br>
-		June 2007 - August 2007 <br> 
-	        Advisor: Professor Charlie Johnson<br>
-		In order to gain a deeper understanding of the interaction between carbon
-		nanotubes and organic compounds, we turned our attention toward computational methods. In doing so, 
-                we performed molecular dynamics (MD) simulations on carbon nanotube structures and analyzed their 
-		iteraction with various biological molecules, including peptides, DNA and RNA.
-		For our results, see the publications section below. 
-		<br>
-		<a href="http://www.lrsm.upenn.edu/~nanophys/">The Johnson Group Website</a><br> </p>
-          </tr>
+		<div class="span9">
+			<p>Columbia University</p>
+			<p>Undergraduate Researcher - Department of Applied Physics </p>
+	    <p>September 2005 - May 2006, September 2006 - May 2007 </p>
+			<p>Advisor: Professor Irving Herman</p>
+			<p>
+				The difficulty in making electrical devices with nanotubes is largely due to the fact that nanotube placement is not reliably predictable. To circumvent this, we used an electric field to aid in the positioning of NT devices. We conducted experiments regarding:
+			</p>
+			<ul>
+				<li>the alignment of single walled carbon nanotubes using dielectrophoresis</li>
+			  <li>deposition of palladium onto carbon nanotube circuits to improve electrical properties</li>
+	      <li><a href="http://www.cise.columbia.edu/herman/">The Herman Group Website</a><br></li>
+	    </ul>
+	  </div>
+	</div>
 
-          <tr>
-            <td width = "208" valign="top" align= "center"><p><strong>Nanoscale and Engineering Center</strong></p></td>
-            <td width = "510" valign="top">
-		<p>Columbia University<br>     
-		<b>Undergraduate Researcher-      Department of Applied Physics </b><br> 
-	        September 2005 - May 2006, September 2006 - May 2007 <br>
-		Advisor: Professor Irving Herman<br>
-		The difficulty in making electrical devices with nanotubes is largely due to the fact that nanotube placement 
-		is not reliably predictable. To circumvent this, we used an electric field to aid in the positioning of NT devices.
-		We conducted experiments regarding: <br>
-		 	     - the alignment of single walled carbon nanotubes using dielectrophoresis <br>  
-			     - deposition of palladium onto carbon nanotube circuits to improve electrical properties<br>
-	       <a href="http://www.cise.columbia.edu/herman/">The Herman Group Website</a><br>
-			     </p>
-		</td>
-          </tr>
-          <tr>
-            <td width="218" valign="top" align = center><p><strong>
-	    Laboratory for the Research and Structure of Matter </strong></p></td>
-	    <td width="500" valign="top">
-		<p>Unviersity of Pennsylvania<br>
-		<b>Undergraduate Researcher - Department of Materials Science </b><br>
-		June 2006 - August 2006 <br> 
-		Advisor: Professor David Luzzi<br>
-		Conducted experiments studying the growth rates of carbon nanotubes via chemical vapor deposition. </p>
-          </tr>
+	<hr>
+	<div class="row-fluid">
+		<div class="span3">
+			<h4>Laboratory for the Research and Structure of Matter</h4>
+		</div>
+		<div class="span9">
+			<p>Unviersity of Pennsylvania</p>
+			<p>Undergraduate Researcher - Department of Materials Science </p>
+			<p>June 2006 - August 2006 </p> 
+			<p>Advisor: Professor David Luzzi</p>
+			<p>Conducted experiments studying the growth rates of carbon nanotubes via chemical vapor deposition. </p>
+		</div>
+	</div>
 
-          <tr>
-            <td width = "208" valign="top" align= "center"><p><strong>
-	    American Institute for Aeronautics and Astronautics</strong></p></td>
-            <td width = "510" valign="top">
-                <p>Columbia University Student Branch<br>
-                <b>President, Web Manager </b><br>
-		August 2006 - Present <br> 
-	        Management of club operations. Assists in the design and construction of a model aircraft 
-		which competes in the internation Design, Build, Fly Competition. <br>
-		<a href="http://www.columbia.edu/cu/aiaa">Columbia AIAA Website</a>
-		</p>
-                </td>
-          </tr>
+	<hr>
+	<div class="row-fluid">
+		<div class="span3">
+			<h4>American Institute for Aeronautics and Astronautics</h4>
+		</div>
+		<div class="span9">
+			<p>Columbia University Student Branch</p>
+			<p>President, Web Manager </p>
+			<p>August 2006 - Present </p> 
+	    <p>
+	    	Management of club operations. Assists in the design and construction of a model aircraft which competes in the internation Design, Build, Fly Competition. 
+	    </p>
+	    <p><a href="http://www.columbia.edu/cu/aiaa">Columbia AIAA Website</a></p>
+	  </div>
+	</div>
 
-
-
-        </table>
 </div>
-
-
 
 
 
 <!-- Publications --> 
+<hr>
+<h2>Publications</h2>
 <div id = "publications">
-        <p align="center"><strong>Publications</strong></p>
-        <table border="0" cellpadding="0" cellspacing="0" >
+	
+	<div class="well">
+		<h4>Computational Study of a Nano-Biosensor: A Single-Wall Carbon Nanotube Functionalized with the Coxsackie-Adenovirus Receptor</h4>
+		<h5>Journal of Physical Chemistry B.</h5>
+		<p>August 27, 2009</p>
+		<p>Will appear on cover of issue 34</p>
+    <p>Author list: Robert R. Johnson, Blake Jon Rego, A.T. Charlie Johnson, Michael L. Klein</p>
+    <a href="http://pubs.acs.org/doi/abs/10.1021/jp901999a" class="btn btn-primary">Read More</a>
+  </div>
 
-          <tr>
-            <td width="208" valign="top">
-                <p>Date Published: <br>
-                Title of Article: <br><br>
-                Journal:  <br>
-                Complete List of Authors: </p>
-             </td>
-          <td width="510" valign="top"><p> 8/27/2009 <br>
-          "Computational Study of a Nano-Biosensor: A Single-Wall Carbon Nanotube Functionalized with the Coxsackie-Adenovirus Receptor"</em><br>
-          Journal of Physical Chemistry B. Will appear on cover of issue 34 (8/27/2009)<br>
-           Robert R. Johnson, Blake Jon Rego, A.T. Charlie Johnson, Michael L. Klein
-           <br><a href="http://pubs.acs.org/doi/abs/10.1021/jp901999a">
-            Link</a>
-	    <br></p></td>
-          </tr>
+  <div class="well">
+  	<h4>Precise Positioning of Carbon Nanotubes by AC Dielectrophoresis  Using Floating Posts (invited paper)</h4>
+  	<h5>Applied Physics A 86, 415-419</h5>
+  	<p>2007 </p>
+  	<p>Author list: S. Banerjee, B. White, L. Huang, B. J. Rego, S. O.Brien, and I. P. Herman</p>
+		<a href="assets/docs/app_phys_a.pdf" class="btn btn-primary">Download full-text version: PDF</a>
+	</div>
 
-
-
-
-
-          <tr>
-            <td width="208" valign="top">
-		<p>Date Published: <br>	
-		Title of Article: <br><br>
-		Journal:  <br>
-		Complete List of Authors: </p> 
-	     </td>
-          <td width="510" valign="top"><p> 2007 <br>
-	  Precise Positioning of Carbon Nanotubes by AC Dielectrophoresis  Using Floating Posts (invited paper)</em><br>
-          Applied Physics A 86, 415-419 <br>
-   	   S. Banerjee, B. White, L. Huang, B. J. Rego, S. O.Brien, and I. P. Herman 
-	   <br><a href="assets/docs/app_phys_a.pdf">
-	    Download full-text version: PDF</a><br>
-	   </p></td>
-          </tr>
-
-          <tr>
-            <td width="208" valign="top">
-                <p>Date Published: <br>
-                Title of Article: <br>
-                Journal:  <br><br><br>
-                Complete List of Authors: </p>
-             </td>
-            <td width="510" valign="top">
-                <p>
-                4 December 2006 <br>
-                <em>Precise Positioning of Carbon Nanotubes by AC Dielectrophoresis </em><br>
-                Journal of Vacuum Science and    Technology 24, 3173 
-		<br>(Also in the December 18, 2006 issue of Virtual Journal of Nanoscale Science & 
-		Technology at http://www.vjnano.org )<br>
-                S. Banerjee, B. White, L. Huang, B. J. Rego, S. O.Brien, and I. P. Herman<br>
-		<a href="assets/docs/jvs.pdf"> 
-		Download full-text version: PDF</a><br>
-		<a href="http://avspublications.org/jvstb/resource/1/jvtbd9/v24/i6/p3173_s1">
-
-		Link</a><br></p></td>
-          </tr>
-
-
-
-        </table>
-        <p align="center">&nbsp;</p>
+	<div class="well">
+		<h4>Precise Positioning of Carbon Nanotubes by AC Dielectrophoresis</h4>
+		<p>Journal of Vacuum Science and    Technology 24, 3173</p>
+		<p>December 4, 2006 </p>
+		<p>Author list: S. Banerjee, B. White, L. Huang, B. J. Rego, S. O.Brien, and I. P. Herman</p>
+		<a href="assets/docs/jvs.pdf" class="btn btn-primary"> Download full-text version: PDF</a>
+		<a href="http://avspublications.org/jvstb/resource/1/jvtbd9/v24/i6/p3173_s1" class="btn">View at Journal</a>
+	</div>
 </div>
-
-
-
-
-<!-- Presentations --> 
-<div id = "presentations">
-        <p align="center"><strong>Presentations</strong></p>
-        <table border="0" cellpadding="0" cellspacing="0">
-          <tr>
-            <td width="220" valign="top"><p><strong>University of Pennsylvania </strong></p></td>
-            <td width="498" valign="top">
-		<p>Laboratory of Research for the Structure of Matter <br>
-		2     August 2006 <br>
-		Controlled Growth of Carbon    Nanotubes on Focus Ion Beam Patterned Substrates via Chemical Vapor Deposition</p>
-	     </td>
-          </tr>
-        </table>
-</div>
-
-
-
-<!-- Awards and Special Recognition --> 
-<div id = "awards">
-        <p align="center"><strong>Awards and Special Recognition</strong></p>
-        <table border="0" cellpadding="0" cellspacing="0">
-          <tr>
-            <td width="208" valign="top"><p><strong>E. Ward Plummer Award</strong></p></td>
-            <td width="510" valign="top">
-		<p>25     September 2006 <br>
-		This award was given for the best engineering paper submitted during the 
-		2006 National Science Foundation    Research Experience for Undergraduates program. 
-		The location for this program was the University of Pennsylvania&rsquo;s Laboratory 
-		for Research and Structure of Matter. </p></td>
-          </tr>
-        </table>
-</div>
-
-
-
 
 </div>
 
