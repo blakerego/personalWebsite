@@ -102,21 +102,8 @@ Javascript, CSS.
       	<li> Propose long-term solutions to the development team.</li>
       </ul>
       <br>
-      <p><a href="http://www.advent.com/solutions/by-product/tamale-rms">Advent - Tamale Software</a></p>
+      <p><a href="http://www.advent.com/solutions/by-product/tamale-rms" class="btn btn-primary">Advent - Tamale Software</a></p>
 		</div>
-	</div>
-
-	<hr>
-	<div class="row-fluid">
-		<div class="span3">
-	  	<h4>Funny Garbage</h4>
-	  </div>
-	  <div class="span9">
-			<p>Front Side Programmer</p>
-			<p>February 2007 - May 2007</p>
-			<p>Developed web components using Adobe Flash - Action Script 3.0, css, html.</p>
-	    <p><a href="http://www.funnygarbage.com">Funny Garbage</a></p>
-	  </div>
 	</div>
 
 	<hr>
@@ -132,7 +119,7 @@ Javascript, CSS.
 			<p>
 				In order to gain a deeper understanding of the interaction between carbon nanotubes and organic compounds, we turned our attention toward computational methods. In doing so, we performed molecular dynamics (MD) simulations on carbon nanotube structures and analyzed their iteraction with various biological molecules, including peptides, DNA and RNA. For our results, see the publications section below. 
 			</p>
-			<p><a href="http://www.lrsm.upenn.edu/~nanophys/">The Johnson Group Website</a></p>
+			<p><a href="http://www.lrsm.upenn.edu/~nanophys/" class="btn btn-primary">The Johnson Group Website</a></p>
 		</div>
 	</div>
 
@@ -153,8 +140,8 @@ Javascript, CSS.
 			<ul>
 				<li>the alignment of single walled carbon nanotubes using dielectrophoresis</li>
 			  <li>deposition of palladium onto carbon nanotube circuits to improve electrical properties</li>
-	      <li><a href="http://www.cise.columbia.edu/herman/">The Herman Group Website</a><br></li>
-	    </ul>
+			</ul>
+	    <a href="http://www.cise.columbia.edu/herman/" class="btn btn-primary">The Herman Group Website</a>
 	  </div>
 	</div>
 
@@ -184,7 +171,7 @@ Javascript, CSS.
 	    <p>
 	    	Management of club operations. Assists in the design and construction of a model aircraft which competes in the internation Design, Build, Fly Competition. 
 	    </p>
-	    <p><a href="http://www.columbia.edu/cu/aiaa">Columbia AIAA Website</a></p>
+	    <p><a href="http://www.columbia.edu/cu/aiaa" class="btn btn-primary">Columbia AIAA Website</a></p>
 	  </div>
 	</div>
 
