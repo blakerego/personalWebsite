@@ -2,16 +2,28 @@
 
 <br>
 <div align="center">
-<h2> Audio Controlled Light Show </h2>
-<object width="576" height="324" ><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://www.facebook.com/v/593040450022" /><embed src="http://www.facebook.com/v/593040450022" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="576" height="324"></embed></object>
-
-<br><h4>
-Main Contributors (in no particular order): <br>Blake Rego, Rurik Primiani, Brian Tovar 
-</h4>
-<h3> Background </h3>
+	<h1> Audio Controlled Light Show </h1>
+	<div class="row-fluid">
+		<div class="span8 offset2">
+			<div class="thumbnail">
+				<object>
+					<param name="allowfullscreen" value="true" />
+					<param name="allowscriptaccess" value="always" />
+					<param name="movie" value="http://www.facebook.com/v/593040450022" />
+					<embed width="576" height="324" src="http://www.facebook.com/v/593040450022" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true"></embed>
+				</object>
+				<div class="caption">
+					<p>Main Contributors (in no particular order):</p>
+					<p>Blake Rego, Rurik Primiani, Brian Tovar</p>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
-<div align="justify">
+<br>
+<h2> Background </h2>
+
 <p>
 The light fixtures you see are Color Kinetics light arrays. There are currently 24 set up in the room. Each one has 45 LEDs- 15 red, green and blue. The intensities of each of these can be controlled on 0 to 255 scale, enabling the user a range of 24-bit color. By using different combinations of these, all intermediate colors are possible.  
 </p>
@@ -21,41 +33,34 @@ We can send color to the lights via a circuit board that contains an ethernet de
 <p>
 We inherited the lights themselves and the power supply / network board. Everything else we designed (software) or fabricated (wires) ourselves.
 </p>
-</div>
 
-<h3 align="center">What's going on in the video</h3>
-<div align="justify">
+<h2>What's going on in the video</h2>
+
 <p>
 We're opening up a .wav file, reading it, and performing an FFT on the data. There are as many frequency bands in the FFT as there are lights (so each light is assigned a frequency band). The power of each band determines a color. When power = 0, the lights are off. Between power=0 and power=MAX_POWER/2, green ranges from 0 to 255. Between power=MAX_POWER/2 to MAX_POWER, green goes from 255 to 0 while red goes from 0 to 255. 
 </p>
 <p>
 We also have tried a very elementary beat detection technique. We took the average power from each of the frequency bands and compared them to a threshold value that we specify. If the average is equal to or greater than the threshold, we set the blue to 255. If not, the blues are off. We are still working out the kinks. 
 </p>
-</div>
 
-<h3 align="center">Future Work</h3>
-<div align="justify">
-<p>
-- We are in the process of porting this code to work on a microcontroller. The hardware we have in mind is the Maple. We are designing a DMX shield, which should be available soon!
+<h2>Future Work</h3>
 <!--
 - Reading /dev/audio instead of a .wav file: The advantage here would be that we could use any audio player to choose songs/ sounds. The limit to .wav files is very restricting. However, this will cause other problems. Reading a .wav file has the advantage of 'knowing' the data ahead of time so there is minimal lag between the audio and the lights. Reading from /dev/audio would require all calculations to occur after the sound has been played. This may introduce performance problems. Depending on the lag, we may need to switch to C instead of python. 
 -->
-</p>
-<p>
-- Reading other devices: We have a keyboard that we are itching to create a light interface for.
-</p>
-<p>
-- Interactive light keyboard: We want to develop a way for a visitor to come into our home and use the keyboard / mouse to control the lights in real time. They will be able to save their shows and play them back using a dynamically generated python script. 
-</p>
-</div>
 
-<h3 align="center"> Contact Us </h3>
-<div align="justify">
-<p>
-If you have any questions, comments, criticisms or suggestions, contact me at blake.rego@gmail.com. If you're in the Boston/ Cambridge area and want to see the lights up close, also let me know and we'll try to work something out.
-</p>
-</div>
+<ul>
+	<li>
+		We are in the process of porting this code to work on a microcontroller. The hardware we have in mind is the Maple. We are designing a DMX shield, which should be available soon!
+	</li>
+	<li>Reading other devices: We have a keyboard that we are itching to create a light interface for.</li>
+	<li>
+		Interactive light keyboard: We want to develop a way for a visitor to come into our home and use the keyboard / mouse to control the lights in real time. They will be able to save their shows and play them back using a dynamically generated python script.
+	</li>
+</ul>
 
+<h2> Contact Us </h2>
+
+<a href="contact.shtml" class="btn btn-primary"> Say hello</a>
 <br>
 
 

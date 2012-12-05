@@ -1,7 +1,7 @@
 <!--#include virtual="/header.html" -->
 
 <div class="hero-unit">
-  <h1>Hire Me</h1>
+  <h1>Hire Me <small>or just say hello</small></h1>
   <p>I'm a technologist open to exciting problems, with an expertise in web application development.</p>
   <p>
     <a class="btn btn-primary btn-large" href="cv.shtml">Full Work Summary</a>
