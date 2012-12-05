@@ -20,7 +20,7 @@ var PortfolioItemView = Backbone.View.extend({
         ? '<a href="' + secondary_url + '" class="btn">' + secondary_button_name + '</a>' 
         : ''
 
-    $(this.el).html('<li class="span3 offset1"><a class="thumbnail" href="' 
+    $(this.el).html('<li class="span3"><a class="thumbnail" href="' 
       + primary_url + '"><img src="' + this.model.get('image_url') + '"></a><div class="caption"><h3>' 
       + this.model.get('title') + '</h3><p>' + this.model.get('blurb') + '</p><a href="'+ primary_url 
       + '" class="btn btn-primary">' + this.model.get('primary_button_name') + '</a>' 
@@ -39,23 +39,37 @@ var PortfolioItemView = Backbone.View.extend({
 /**********************************
 List View
 **********************************/
-var OrderItemListView = Backbone.View.extend({    
+var PortfolioItemListView = Backbone.View.extend({    
 
   el: $('#portfolio_items'), // attaches `this.el` to an existing element.
 
   initialize: function()
   {
+    _.bindAll(this); 
     this.el = $('#portfolio_items'); //this shouldn't be necessary.
-     _.bindAll(this); 
   },
 
   render: function()
   {
-    $(this.el).append("<table id='order_table' class='table table-condensed'><tr><th>Item</th><th>Price</th><th>Quantity</th></tr><tbody id='orderItemTable'>");
-    $(this.el).append("</tbody></table>");
-    _(this.collection.models).each(function(item){
-      self.appendItem(item);
-    }, this);
+    $(this.el).append('<div class="row-fluid"><ul id="thumbnails" class="thumbnails">');
+    $(this.el).append('</ul></div>')
+    if (typeof this.collection != 'undefined' )
+    {
+      _(this.collection.models).each(function(item){
+        this.appendItem(item);
+      }, this);
+    }
   },
+
+  appendItem: function(item) 
+  {
+    //alert();
+    var itemView = new PortfolioItemView({
+      model: item
+    });
+    //itemView.render();
+    alert(itemView.render().el);
+    $('#thumbnails', this.el).append(itemView.render().el);
+  }
 
 });

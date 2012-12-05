@@ -2,10 +2,9 @@
 
 <h1>Projects</h1>
 
-
-<div class="row-fluid">
-	<ul>
-		<li class="span3 offset1">
+<!-- 
+	<ul class="thumbnails">
+		<li class="span3">
 	  	<a class="thumbnail" href="www.sporkmap.com">
 	  		<img src="assets/images/spork_300x200_thumb.png" alt>
 	  	</a>
@@ -21,7 +20,7 @@
 	  	</div>
 	  </li>
 
-	 	<li class="span3 offset1">
+	 	<li class="span3">
 	  	<a class="thumbnail">
 	  		<img src="assets/images/heatmap1_300x200_thumb.png">
 	  	</a>
@@ -36,7 +35,7 @@
 			</div>
 	  </li>
 
-	  <li class="span3 offset1">
+	  <li class="span3">
 	  	 <a class="thumbnail">
 	  	 	<img src="assets/images/lights_300x200_thumb.png">
 	  	 </a>
@@ -50,13 +49,8 @@
 				</p>
 			</div>
 	  </li>
-	</ul>
-</div>
 
-<div class="row-fluid">
-	<ul class="thumbnails">
-
-	  <li class="span3 offset1">
+	  <li class="span3">
 	  	<a class="thumbnail">
 	  		<img src="assets/images/cmm_300x200_thumb.png">
 	  	</a>
@@ -71,7 +65,7 @@
   		</div>
 	  </li>
 
-	  <li class="span3 offset1">
+	  <li class="span3">
 	 	 <a class="thumbnail">
 		 	 	<img src="assets/images/nano_300x200_thumb.png">
 		 	</a>
@@ -88,7 +82,7 @@
 
 
 
-	  <li class="span3 offset1">
+	  <li class="span3">
 	  	<a class="thumbnail">
 		 	 	<img src="assets/images/portfolio_300x200_thumb.png">
 		 	 </a>
@@ -105,30 +99,20 @@
 		</li>
 
 	</ul>
-</div>
 
 
 <div class="row-fluid">
-	<ul id="thumbnails">
+	<ul id="thumbnails" class="thumbnails">
 	</ul>
+</div>
+ -->
+
+
+
+<div id='portfolio_items'>
 </div>
 
 <!--#include virtual="footer.html" -->
 <script src="assets/javascripts/models/portfolio_item.js"></script>
 <script src="assets/javascripts/views/portfolio_item_view.js"></script>
-<!--script>
-	var spork = new PortfolioItem(
-	{
-		'primary_url' : 'http://www.sporkmap.com',
-		'title' : 'Spork', 
-		'image_url' : 'assets/images/spork_300x200_thumb.png',
-		'blurb' : 'Spork is a web application that serves as an online food truck ordering system.  ',
-		'primary_button_name' : 'View',
-		'secondary_url' : 'https://github.com/blakerego/sporkMaps', 
-		'secondary_button_name' : 'Source Code'
-	});
-	var sporkView = new PortfolioItemView({
-		model : spork
-	});
-	sporkView.render();
-</script-->
+<script src="assets/javascripts/projects.js"></script>
