@@ -19,7 +19,7 @@ var PortfolioItemView = Backbone.View.extend({
 
     this.$el.html(this.template(this.model.toJSON()));
 
-    return this; // for chainable calls, like .render().el
+    return this;
   },
 });
 
@@ -43,9 +43,6 @@ var PortfolioItemListView = Backbone.View.extend({
     $(this.el).append('<div class="row-fluid"><ul id="thumbnails" class="thumbnails">');
     $(this.el).append('</ul></div>')
 
-    //$(this.el).html(this.template(this.model.toJSON()));
-    //this.$el.toggleClass('done', this.model.get('done'));
-
     if (typeof this.collection != 'undefined' )
     {
       _(this.collection.models).each(function(item){
@@ -54,15 +51,28 @@ var PortfolioItemListView = Backbone.View.extend({
     }
   },
 
+  count: 0,
+
   appendItem: function(item) 
   {
-    //alert();
+    this.count++; 
+
+    if (this.count%3 == 1 && this.count != 1)
+    {
+      var c = "span3";
+    } 
+    else 
+    {
+      var c = "span3 offset1"; 
+    }
+
+
     var itemView = new PortfolioItemView({
-      model: item
+      model: item, 
+      className: c
     });
-    //itemView.render();
+
     itemView.render(); 
-    //alert(itemView.render().el);
     $('#thumbnails', this.el).append(itemView.render().el);
   }
 
