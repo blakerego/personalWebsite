@@ -1,8 +1,14 @@
 /**********************************
-Item View 
+Single Portfolio Item View 
 **********************************/
 var PortfolioItemView = Backbone.View.extend({
-  el: $('#thumbnails'), // name of (orphan) root tag in this.el. 
+  
+  tagName: "li",
+
+  className: "span3",
+
+  template: _.template($('#portfolio_item_template').html()),
+
   initialize: function() 
   {
     _.bindAll(this); 
@@ -11,27 +17,10 @@ var PortfolioItemView = Backbone.View.extend({
   render: function() 
   {
 
-    var primary_url = this.model.get('primary_url'); 
-    var secondary_url = this.model.get('secondary_url');
-    var secondary_button_name = this.model.get('secondary_button_name'); 
-
-
-    var appendText = (typeof secondary_url != 'undefined' && typeof secondary_button_name != 'undefined') 
-        ? '<a href="' + secondary_url + '" class="btn">' + secondary_button_name + '</a>' 
-        : ''
-
-    $(this.el).html('<li class="span3"><a class="thumbnail" href="' 
-      + primary_url + '"><img src="' + this.model.get('image_url') + '"></a><div class="caption"><h3>' 
-      + this.model.get('title') + '</h3><p>' + this.model.get('blurb') + '</p><a href="'+ primary_url 
-      + '" class="btn btn-primary">' + this.model.get('primary_button_name') + '</a>' 
-      + appendText
-      + '</p></div></li>'
-      );
+    this.$el.html(this.template(this.model.toJSON()));
 
     return this; // for chainable calls, like .render().el
   },
-
-
 });
 
 
@@ -53,6 +42,10 @@ var PortfolioItemListView = Backbone.View.extend({
   {
     $(this.el).append('<div class="row-fluid"><ul id="thumbnails" class="thumbnails">');
     $(this.el).append('</ul></div>')
+
+    //$(this.el).html(this.template(this.model.toJSON()));
+    //this.$el.toggleClass('done', this.model.get('done'));
+
     if (typeof this.collection != 'undefined' )
     {
       _(this.collection.models).each(function(item){
@@ -68,7 +61,8 @@ var PortfolioItemListView = Backbone.View.extend({
       model: item
     });
     //itemView.render();
-    alert(itemView.render().el);
+    itemView.render(); 
+    //alert(itemView.render().el);
     $('#thumbnails', this.el).append(itemView.render().el);
   }
 

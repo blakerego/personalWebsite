@@ -26,6 +26,16 @@ var allItems = new PortfolioItemList(
 		'secondary_url' : 'https://github.com/blakerego/sporkMaps', 
 		'secondary_button_name' : 'Source Code'
 	}),
+
+	new PortfolioItem(
+	{
+		'primary_url' : 'heatmap.shtml',
+		'title' : 'Heat Map Visualizations', 
+		'image_url' : 'assets/images/heatmap1_300x200_thumb.png',
+		'blurb' : 'The heat map project is a web application designed to visually depict city-wide utility equipment load on an interactive map. ',
+		'primary_button_name' : 'Read More',
+	}),
+
 	new PortfolioItem(
 	{
 		'primary_url' : 'http://www.sporkmap.com',
