@@ -39,7 +39,7 @@ var PortfolioItemListView = Backbone.View.extend({
   render: function()
   {
 
-    $(this.el).append('<ul id="portfolio_items" class="thumbnails">');    
+    //$(this.el).append('<ul id="portfolio_items" class="thumbnails">');    
 
 
     if (typeof this.collection != 'undefined' )
@@ -57,7 +57,7 @@ var PortfolioItemListView = Backbone.View.extend({
 
 
       alert(
-        this.getItemView(items[0]).render().$el.html()
+        this.getItemView(items[0]).render().el.outerHTML
         );
       //$('#portfolio_items', this.el).append(this.getItemView(items[0]).render() );   
 
@@ -65,11 +65,14 @@ var PortfolioItemListView = Backbone.View.extend({
       var current = 0;
       while (current < fullItems)
       {
-        $('#portfolio_items')
-            .append(this.getItemView(items[current++]).render().$el.html())   
-            .append(this.getItemView(items[current++]).render().$el.html())
-            .append(this.getItemView(items[current++]).render().$el.html())
-            .wrap('<div class="row-fluid />');
+        var rowTag = 'portfolio_items_' + current.toString(); 
+
+        $(this.el).append('<div class="row-fluid /><ul id="'+ rowTag + '" class="thumbnails">'
+          + this.getItemView(items[current++]).render().el.outerHTML   
+          + this.getItemView(items[current++]).render().el.outerHTML
+          + this.getItemView(items[current++]).render().el.outerHTML
+          + '</ul>'
+          );
       }
 
 
