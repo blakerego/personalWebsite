@@ -56,12 +56,6 @@ var PortfolioItemListView = Backbone.View.extend({
       var fullItems = totalFullRows * 3;
 
 
-      alert(
-        this.getItemView(items[0]).render().el.outerHTML
-        );
-      //$('#portfolio_items', this.el).append(this.getItemView(items[0]).render() );   
-
-
       var current = 0;
       while (current < fullItems)
       {
