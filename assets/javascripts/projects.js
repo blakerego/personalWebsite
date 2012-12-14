@@ -8,7 +8,8 @@ var allItems = new PortfolioItemList(
 		'blurb' : 'Spork is a web application that serves as an online food truck ordering system.  ',
 		'primary_button_name' : 'Visit',
 		'secondary_url' : 'https://github.com/blakerego/sporkMaps', 
-		'secondary_button_name' : 'Source Code'
+		'secondary_button_name' : 'Source Code',
+		'technologies' : ''
 	}),
 
 	new PortfolioItem(

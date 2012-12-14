@@ -3,16 +3,80 @@
 	{
 		"selected_items":
 		[
+			[
+				"btn",
+				"btn-primary"
+			],
+			[
+				"Portf",
+				"PortfolioItemList"
+			],
+			[
+				"append",
+				"appendText"
+			],
+			[
+				"seconda",
+				"secondary_button_name"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "croatia.html",
+			"file": "assets/javascripts/application.js",
 			"settings":
 			{
-				"buffer_size": 1752,
+				"buffer_size": 340,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "footer.html",
+			"settings":
+			{
+				"buffer_size": 997,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "projects.shtml",
+			"settings":
+			{
+				"buffer_size": 907,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "header.html",
+			"settings":
+			{
+				"buffer_size": 2167,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/javascripts/views/portfolio_item_view.js",
+			"settings":
+			{
+				"buffer_size": 2241,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/javascripts/projects.js",
+			"settings":
+			{
+				"buffer_size": 2347,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/javascripts/models/portfolio_item.js",
+			"settings":
+			{
+				"buffer_size": 312,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -40,9 +104,17 @@
 	},
 	"file_history":
 	[
+		"/C/Users/brego/personal/personalWebsite/assets/javascripts/projects.js",
+		"/C/Users/brego/personal/personalWebsite/assets/stylesheets/application.css",
+		"/C/Users/brego/personal/personalWebsite/index.shtml",
+		"/C/Users/brego/personal/personalWebsite/header.html",
+		"/C/Users/brego/personal/personalWebsite/footer.html",
+		"/C/Users/brego/personal/personalWebsite/projects.shtml",
+		"/C/Users/brego/personal/personalWebsite/miami.shtml",
+		"/C/Users/brego/personal/personalWebsite/croatia.html",
+		"/C/Users/brego/personal/personalWebsite/header2.html",
 		"/C/Users/brego/personal/personalWebsite/cv2.html",
-		"/C/Users/brego/personal/personalWebsite/BlakeSized.swf",
-		"/C/Users/brego/personal/personalWebsite/index.shtml"
+		"/C/Users/brego/personal/personalWebsite/BlakeSized.swf"
 	],
 	"find":
 	{
@@ -60,6 +132,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".css"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -77,23 +150,50 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "croatia.html",
+					"file": "assets/javascripts/application.js",
 					"settings":
 					{
-						"buffer_size": 1752,
+						"buffer_size": 340,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								310,
-								310
+								82,
+								82
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "footer.html",
+					"settings":
+					{
+						"buffer_size": 997,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								997,
+								997
 							]
 						],
 						"settings":
@@ -101,6 +201,148 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "projects.shtml",
+					"settings":
+					{
+						"buffer_size": 907,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								665,
+								665
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "header.html",
+					"settings":
+					{
+						"buffer_size": 2167,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1612,
+								1763
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "assets/javascripts/views/portfolio_item_view.js",
+					"settings":
+					{
+						"buffer_size": 2241,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1293,
+								1293
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 570.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "assets/javascripts/projects.js",
+					"settings":
+					{
+						"buffer_size": 2347,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								669,
+								669
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "assets/javascripts/models/portfolio_item.js",
+					"settings":
+					{
+						"buffer_size": 312,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								98,
+								103
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -117,7 +359,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -128,11 +370,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -152,6 +401,54 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"header.",
+				"header.html"
+			],
+			[
+				"projects.js",
+				"assets/javascripts/projects.js"
+			],
+			[
+				"foo",
+				"footer.html"
+			],
+			[
+				"projects",
+				"projects.shtml"
+			],
+			[
+				"application.js",
+				"assets/javascripts/application.js"
+			],
+			[
+				"proj",
+				"projects.shtml"
+			],
+			[
+				"inde",
+				"index.shtml"
+			],
+			[
+				"hea",
+				"header.html"
+			],
+			[
+				"miami",
+				"miami.shtml"
+			],
+			[
+				"footer.html",
+				"footer.html"
+			],
+			[
+				"index",
+				"index.shtml"
+			],
+			[
+				"header2.html",
+				"header2.html"
+			]
 		],
 		"width": 0.0
 	},
@@ -170,7 +467,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 221.0,
 	"status_bar_visible": true
 }

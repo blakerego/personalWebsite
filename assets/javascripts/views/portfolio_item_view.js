@@ -41,17 +41,14 @@ var PortfolioItemListView = Backbone.View.extend({
 
     //$(this.el).append('<ul id="portfolio_items" class="thumbnails">');    
 
-
     if (typeof this.collection != 'undefined' )
     {
-
-
 
       /// Rows can only contain 3 items, otherwise there is an ugly offset on the overflow. 
       /// To get around this, only add three items at a time. 
       var items = this.collection.models;
       var totalSize = items.length; 
-      var totalFullRows = totalSize / 3; 
+      var totalFullRows = Math.floor(totalSize / 3); 
       var remainderRow = totalSize % 3; 
       var fullItems = totalFullRows * 3;
 
@@ -69,10 +66,30 @@ var PortfolioItemListView = Backbone.View.extend({
           );
       }
 
+      /// Here we do our incomplete (less than 3) row, if it exists. 
+      if (remainderRow > 0)
+      {
+        while( current  < current + remainderRow)
+        {
+          var rowTag = 'portfolio_items_' + current.toString(); 
 
-      // _(this.collection.models).each(function(item){
-      //   this.appendItem(item);
-      // }, this);
+          if (remainderRow == 2)
+          {
+            $(this.el).append('<div class="row-fluid /><ul id="'+ rowTag + '" class="thumbnails">'
+              + this.getItemView(items[current++]).render().el.outerHTML   
+              + this.getItemView(items[current++]).render().el.outerHTML
+              + '</ul>'
+              );
+          }
+          else
+          {
+            $(this.el).append('<div class="row-fluid /><ul id="'+ rowTag + '" class="thumbnails">'
+              + this.getItemView(items[current++]).render().el.outerHTML   
+              + '</ul>'
+            );
+          }
+        }
+      }
     }
 
     $(this.el).append('</ul>');
