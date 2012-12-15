@@ -2,8 +2,21 @@
 
 <h1>Heat Map Visualizations</h1>
 
+<div class="row">
+	<div class="thumbnail span3 offset4">
+		<img src="/assets/images/heatmap1_300x200_thumb.png">
+	</div>
+</div>
+
+<br>
+
+<h2>Purpose</h2>
 <p>
-I worked on this heat map visualization project while working at <a href="http://www.greenchargenet.com">Green Charge Networks</a> for a large utility company in NYC. 
+On a team of two developers at <a href="http://www.greenchargenet.com">Green Charge Networks</a>, we created a set of heat map visualizations. The point of the application was to be able to view eletrical equipment load over a given region in space. 
+</p>
+<h2>Technologies Used</h2>
+<p>
+	Due to the requests of the client we were working with, we used exclusively a Microsoft stack. We used the asp.net MVC3 web application stack, with the Entity Framework ORM to a MS-SQL data store. As a mapping application, we used Bing Maps. 
 </p>
 
 <!--#include virtual="/footer.html" -->
