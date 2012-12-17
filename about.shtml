@@ -1,0 +1,5 @@
+<!--#include virtual="/header.html" -->
+
+<img src="assets/images/air_guitar.png">
+
+<!--#include virtual="footer.html" -->
