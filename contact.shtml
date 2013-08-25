@@ -7,9 +7,16 @@
     <a class="btn btn-primary btn-large" href="cv.shtml">Full Work Summary</a>
     <a class="btn btn-large" href="RegoResume.pdf">Resume</a>
   </p>
+  <p>blake[dot]rego[at]gmail[dot]com</p>
+  <p>Find me elsewhere on the web!</p>
 	<ul>
-		<li>blake[dot]rego[at]gmail[dot]com</li>
-		<li><a href="https://github.com/blakerego">-->Github</a></li>
+		<li>
+      <a href="https://github.com/blakerego">
+        <iframe src="http://githubbadge.appspot.com/badge/blakerego" style="border: 0;height: 108px;width: 200px;overflow: hidden;" frameBorder=0>
+        </iframe>
+      --> Github
+      </a>
+    </li>
     <li>
       <a href="http://stackoverflow.com/users/368682/blake">
         <img src="http://stackoverflow.com/users/flair/368682.png?theme=default" width="208" height="58" alt="profile for Blake at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Blake at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
