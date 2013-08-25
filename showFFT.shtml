@@ -6,12 +6,7 @@
 	<div class="row-fluid">
 		<div class="span8 offset2">
 			<div class="thumbnail">
-				<object>
-					<param name="allowfullscreen" value="true" />
-					<param name="allowscriptaccess" value="always" />
-					<param name="movie" value="http://www.facebook.com/v/593040450022" />
-					<embed width="576" height="324" src="http://www.facebook.com/v/593040450022" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true"></embed>
-				</object>
+				<iframe src="https://www.facebook.com/video/embed?video_id=593040450022" width="640" height="360" frameborder="0"></iframe>				
 				<div class="caption">
 					<p>Main Contributors (in no particular order):</p>
 					<p>Blake Rego, Rurik Primiani, Brian Tovar</p>
