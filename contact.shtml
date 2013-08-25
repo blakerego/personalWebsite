@@ -7,9 +7,9 @@
     <a class="btn btn-primary btn-large" href="cv.shtml">Full Work Summary</a>
     <a class="btn btn-large" href="RegoResume.pdf">Resume</a>
   </p>
-  <p>blake[dot]rego[at]gmail[dot]com</p>
-  <p>Find me elsewhere on the web!</p>
-	<ul>
+  <p>You can contact me directly at blake[dot]rego[at]gmail[dot]com</p>
+  <p>You can also find me elsewhere on the web. Check out some of my other profiles -</p>
+	<ul class="">
 		<li>
       <a href="https://github.com/blakerego">
         <iframe src="http://githubbadge.appspot.com/badge/blakerego" style="border: 0;height: 108px;width: 200px;overflow: hidden;" frameBorder=0>
