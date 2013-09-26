@@ -48,6 +48,7 @@
 
 <script>
 	$(function() {
+		$('.initially_hidden').hide();
 		$('#welcome, .project_group').show('slide', {'direction' : 'left', 'duration' : '800'});
 		$('.contact_group').show('slide', {'direction' : 'right', 'duration' : '800'});
 	});
