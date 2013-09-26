@@ -47,5 +47,7 @@
 <!--#include virtual="footer.html" -->
 
 <script type="javascript">
-	$('#welcome').show('slide', {'direction': 'left'});
+	$(function() {
+		$('#welcome').show('slide', {'direction' : 'left'});
+	});
 </script>
