@@ -1,6 +1,6 @@
 <!--#include virtual="/header.html" -->
 
-<h1 class='initially_hidden'>Welcome</h1>
+<h1 class='initially_hidden' id="welcome">Welcome</h1>
 
 <div class="row-fluid">
 		<li class="span6 project_group initially_hidden">
