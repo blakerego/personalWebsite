@@ -7,9 +7,24 @@
     <a class="btn btn-primary btn-large" href="cv.shtml">Full Work Summary</a>
     <a class="btn btn-large" href="RegoResume.pdf">Resume</a>
   </p>
-	<ul>
-		<li><a href="mailto:blake.rego@gmail.com">-->GMail</a></li>
-		<li><a href="https://github.com/blakerego">-->Github</a></li>
+  <p>You can contact me directly at blake[dot]rego[at]gmail[dot]com</p>
+  <p>You can also find me elsewhere on the web. Check out some of my other profiles -</p>
+	<ul class="">
+		<li>
+      <a href="https://github.com/blakerego">
+        <iframe src="http://githubbadge.appspot.com/badge/blakerego" style="border: 0;height: 108px;width: 200px;overflow: hidden;" frameBorder=0>
+        </iframe>
+      --> Github
+      </a>
+    </li>
+    <li>
+      <a href="http://stackoverflow.com/users/368682/blake">
+        <img src="http://stackoverflow.com/users/flair/368682.png?theme=default" width="208" height="58" alt="profile for Blake at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Blake at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
+        --> Stack Overflow
+      </a>
+    </li>
+    <li><a href="http://www.linkedin.com/pub/blake-rego/9/609/134/">-->LinkedIn</a></li>
+    <li><a href="https://twitter.com/BlakeRego">-->Twitter</a></li>
 	</ul>
   
 </div>
