@@ -3,7 +3,7 @@
 <h1 id='welcome'>Welcome</h1>
 
 <div class="row-fluid">
-		<li class="span6">
+		<li class="span6 project_group">
 	  	<div class="thumbnail">
 	  		<img src="assets/images/projects.png" alt>
 	  		<div class="caption">
@@ -19,7 +19,7 @@
 	  	</div>	  	
 	  </li>
 
-		<li class="span6">
+		<li class="span6 contact_group">
 	  	
 	  	<div class="thumbnail">
 	  		<div class="caption">
@@ -48,6 +48,7 @@
 
 <script>
 	$(function() {
-		$('#welcome').show('slide', {'direction' : 'left'});
+		$('#welcome, .project_group').show('slide', {'direction' : 'left'});
+		$('.contact_group').show('slide', {'direction' : 'right'});
 	});
 </script>
