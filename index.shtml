@@ -1,9 +1,9 @@
 <!--#include virtual="/header.html" -->
 
-<h1 id='welcome'>Welcome</h1>
+<h1 class='initially_hidden'>Welcome</h1>
 
 <div class="row-fluid">
-		<li class="span6 project_group">
+		<li class="span6 project_group initially_hidden">
 	  	<div class="thumbnail">
 	  		<img src="assets/images/projects.png" alt>
 	  		<div class="caption">
@@ -19,7 +19,7 @@
 	  	</div>	  	
 	  </li>
 
-		<li class="span6 contact_group">
+		<li class="span6 contact_group initially_hidden">
 	  	
 	  	<div class="thumbnail">
 	  		<div class="caption">
