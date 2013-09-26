@@ -1,6 +1,6 @@
 <!--#include virtual="/header.html" -->
 
-<h1>Welcome</h1>
+<h1 id='welcome'>Welcome</h1>
 
 <div class="row-fluid">
 		<li class="span6">
@@ -45,3 +45,7 @@
 </div>
 
 <!--#include virtual="footer.html" -->
+
+<script type="javascript">
+	$('#welcome').show('slide', {'direction': 'left'});
+</script>

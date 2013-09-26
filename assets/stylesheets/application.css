@@ -16,3 +16,8 @@
 {
 	line-height: 100%;
 }
+
+#welcome
+{
+  display: none;
+}
