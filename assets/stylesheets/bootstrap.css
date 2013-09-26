@@ -5240,7 +5240,7 @@ input[type="submit"].btn.btn-mini {
   display: block;
   padding: 4px;
   line-height: 20px;
-  border: 10px solid black;
+  border: 1px solid black;
 /*  border: 1px solid #ddd;
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
