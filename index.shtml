@@ -48,7 +48,7 @@
 
 <script>
 	$(function() {
-		$('#welcome, .project_group').show('slide', {'direction' : 'left'});
-		$('.contact_group').show('slide', {'direction' : 'right'});
+		$('#welcome, .project_group').show('slide', {'direction' : 'left', 'duration' : '800'});
+		$('.contact_group').show('slide', {'direction' : 'right', 'duration' : '800'});
 	});
 </script>
