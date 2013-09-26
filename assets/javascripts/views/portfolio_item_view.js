@@ -58,11 +58,11 @@ var PortfolioItemListView = Backbone.View.extend({
       {
         var rowTag = 'portfolio_items_' + current.toString(); 
 
-        $(this.el).append('<div class="row-fluid /><ul id="'+ rowTag + '" class="thumbnails">'
+        $(this.el).append('<div class="row-fluid" ><ul id="'+ rowTag + '" class="thumbnails">'
           + this.getItemView(items[current++]).render().el.outerHTML   
           + this.getItemView(items[current++]).render().el.outerHTML
           + this.getItemView(items[current++]).render().el.outerHTML
-          + '</ul>'
+          + '</ul></div>'
           );
       }
 
@@ -75,17 +75,17 @@ var PortfolioItemListView = Backbone.View.extend({
 
           if (remainderRow == 2)
           {
-            $(this.el).append('<div class="row-fluid /><ul id="'+ rowTag + '" class="thumbnails">'
+            $(this.el).append('<div class="row-fluid"><ul id="'+ rowTag + '" class="thumbnails">'
               + this.getItemView(items[current++]).render().el.outerHTML   
               + this.getItemView(items[current++]).render().el.outerHTML
-              + '</ul>'
+              + '</ul></div>'
               );
           }
           else
           {
-            $(this.el).append('<div class="row-fluid /><ul id="'+ rowTag + '" class="thumbnails">'
+            $(this.el).append('<div class="row-fluid"><ul id="'+ rowTag + '" class="thumbnails">'
               + this.getItemView(items[current++]).render().el.outerHTML   
-              + '</ul>'
+              + '</ul></div>'
             );
           }
         }
