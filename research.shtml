@@ -7,7 +7,7 @@
 
   <div class="row-fluid" align="center">      
     <h2>Center for Molecular Modeling - University of Pennsylvania</h2><br><br>
-    <div class="thumbnail span6 offset3">
+    <div class="thumbnail span8 offset2">
 	    <img src="assets/images/linkerzoom.jpg">
 	    <div class="caption">
 	    	<p>Figure: Visualization of the coxsackie adenovirus receptor (CAR) and carbon nanotube simulation setup. The enlarged portion is a linker site in which the protein is covalently bonded to the nanotube.</p>
