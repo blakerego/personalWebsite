@@ -580,7 +580,8 @@ a:hover {
 }
 
 p {
-  margin: 0 0 10px;
+  margin: 13px 0 0;
+  line-height: 25px;
 }
 
 .lead {
