@@ -68,10 +68,10 @@
 			<p>March 2013 - September 2013</p>
 			<p>Technologies Used: Rails3, Javascript, HTML5, CSS3, jQuery, Bootstrap</p>
 			<ul>
-				<li>Worked on a team implementing a social network connecting entrepreneus and small businesses with one another. </li>
-				<li>Designed and implemented an interface to control the content for TVs at any one of our buildings (spanning from San Francisco to New York). </li>
+				<li>Worked on a team implementing a social network connecting entrepreneurs and small businesses with one another. </li>
+				<li>Designed and implemented an interface to control the content for TVs at any one of our buildings (WeWork is a collaborative work environment, with offices spanning from San Francisco to New York). </li>
 			</ul>
-      <p><a href="https://www.wework.com/" class="btn btn-primary">WeWork</a></p>
+      <p><a href="https://www.wework.com/">WeWork</a></p>
 		</div>
 	</div>
 
@@ -88,7 +88,7 @@
 				<li>Spoke with clients bi-weekly to demonstrate progress on our applications, record feedback on existing programs and discuss new feature requests. </li>
 				<li> Worked on the network operation center for our electrical system. I primarily worked on the communication protocol (SOAP) between our system and others.</li>
 			</ul>
-      <p><a href="http://www.greenchargenet.com/" class="btn btn-primary">Green Charge Networks</a></p>
+      <p><a href="http://www.greenchargenet.com/">Green Charge Networks</a></p>
 		</div>
 	</div>
 
@@ -116,12 +116,12 @@ Javascript, CSS.
       <p> Periodic "Fire Marshall" Rotations</p> 
       <ul>
       	<li>On call to field technical questions in order to aid client services deal with bugs that occur in the field. </li>
-      	<li> Troubleshoot issues on the s workstation under client pressure.</li>
+      	<li> Troubleshoot issues on the client's workstation under client pressure.</li>
       	<li> Deliver immediate solutions in the form of either a code patch or work-around instructions.</li>
       	<li> Propose long-term solutions to the development team.</li>
       </ul>
       <br>
-      <p><a href="http://www.advent.com/solutions/by-product/tamale-rms" class="btn btn-primary">Advent - Tamale Software</a></p>
+      <p><a href="http://www.advent.com/solutions/by-product/tamale-rms">Advent - Tamale Software</a></p>
 		</div>
 	</div>
 
@@ -138,7 +138,7 @@ Javascript, CSS.
 			<p>
 				In order to gain a deeper understanding of the interaction between carbon nanotubes and organic compounds, we turned our attention toward computational methods. In doing so, we performed molecular dynamics (MD) simulations on carbon nanotube structures and analyzed their iteraction with various biological molecules, including peptides, DNA and RNA. For our results, see the publications section below. 
 			</p>
-			<p><a href="http://www.lrsm.upenn.edu/~nanophys/" class="btn btn-primary">The Johnson Group Website</a></p>
+			<p><a href="http://www.lrsm.upenn.edu/~nanophys/">The Johnson Group Website</a></p>
 		</div>
 	</div>
 
@@ -160,7 +160,7 @@ Javascript, CSS.
 				<li>the alignment of single walled carbon nanotubes using dielectrophoresis</li>
 			  <li>deposition of palladium onto carbon nanotube circuits to improve electrical properties</li>
 			</ul>
-	    <a href="http://www.cise.columbia.edu/herman/" class="btn btn-primary">The Herman Group Website</a>
+	    <a href="http://www.cise.columbia.edu/herman/">The Herman Group Website</a>
 	  </div>
 	</div>
 
@@ -178,22 +178,6 @@ Javascript, CSS.
 		</div>
 	</div>
 
-	<hr>
-	<div class="row-fluid">
-		<div class="span3">
-			<h4>American Institute for Aeronautics and Astronautics</h4>
-		</div>
-		<div class="span9">
-			<p>Columbia University Student Branch</p>
-			<p>President, Web Manager </p>
-			<p>August 2006 - Present </p> 
-	    <p>
-	    	Management of club operations. Assists in the design and construction of a model aircraft which competes in the internation Design, Build, Fly Competition. 
-	    </p>
-	    <p><a href="http://www.columbia.edu/cu/aiaa" class="btn btn-primary">Columbia AIAA Website</a></p>
-	  </div>
-	</div>
-
 </div>
 
 
@@ -209,7 +193,7 @@ Javascript, CSS.
 		<p>August 27, 2009</p>
 		<p>Will appear on cover of issue 34</p>
     <p>Author list: Robert R. Johnson, Blake Jon Rego, A.T. Charlie Johnson, Michael L. Klein</p>
-    <a href="http://pubs.acs.org/doi/abs/10.1021/jp901999a" class="btn btn-primary">Read More</a>
+    <a href="http://pubs.acs.org/doi/abs/10.1021/jp901999a">Read More</a>
   </div>
 
   <div class="well">
@@ -217,7 +201,7 @@ Javascript, CSS.
   	<h5>Applied Physics A 86, 415-419</h5>
   	<p>2007 </p>
   	<p>Author list: S. Banerjee, B. White, L. Huang, B. J. Rego, S. O.Brien, and I. P. Herman</p>
-		<a href="assets/docs/app_phys_a.pdf" class="btn btn-primary">Download full-text version: PDF</a>
+		<a href="assets/docs/app_phys_a.pdf">Download full-text version: PDF</a>
 	</div>
 
 	<div class="well">
