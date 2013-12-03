@@ -48,7 +48,6 @@
 			Java Web: Spring Framework with Hibernate back-end. <br /> 
 			<!-- Python: mostly in regards to my <a href="showFFT.shtml">lights project</a>.  -->
 			</p>
-      <p><a href="https://www.wework.com/" class="btn btn-primary">WeWork</a></p>
 		</div>
 	</div>
 </div>
@@ -72,6 +71,7 @@
 				<li>Worked on a team implementing a social network connecting entrepreneus and small businesses with one another. </li>
 				<li>Designed and implemented an interface to control the content for TVs at any one of our buildings (spanning from San Francisco to New York). </li>
 			</ul>
+      <p><a href="https://www.wework.com/" class="btn btn-primary">WeWork</a></p>
 		</div>
 	</div>
 
