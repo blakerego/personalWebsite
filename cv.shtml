@@ -10,6 +10,7 @@
 	<p><i>I am a software engineer with a focus on web technologies</i></p>
 	<p>New York, NY</p>
 	<p>blake[dot]rego[at]gmail[dot]com</p>
+	<p><a href="https://github.com/blakerego">https://github.com/blakerego</a></p>
 	<a href="RegoResume.pdf" class="btn btn-large btn-primary">Download abridged PDF</a>
 </div>
 
@@ -45,7 +46,7 @@
 			C# Desktop: Model-view-presenter based Windows platform applications using libraries such as Infragistics and DevExpress. <br />
 			C# Web: MVC3 asp.net applications with Entity Framework back-end.  <br />
 			Java Web: Spring Framework with Hibernate back-end. <br /> 
-			Python: mostly in regards to my <a href="showFFT.shtml">lights project</a>. 
+			<!-- Python: mostly in regards to my <a href="showFFT.shtml">lights project</a>.  -->
 			</p>
 		</div>
 	</div>
