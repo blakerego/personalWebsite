@@ -7,6 +7,7 @@
 <!-- Contact Me-->
 <div class="hero-unit" align="center">
 	<h1>Blake Jon Rego</h1>
+	<p><i>I am a software engineer with a focus on web technologies</i></p>
 	<p>New York, NY</p>
 	<p>blake[dot]rego[at]gmail[dot]com</p>
 	<a href="RegoResume.pdf" class="btn btn-large btn-primary">Download abridged PDF</a>
@@ -39,10 +40,11 @@
 		</div>
 		<div class="span9">
 			<p>
+			Ruby: using Ruby on Rails web framework. <br />
+			Front-end web technologies, including: HTML5, CSS3, javascript, jquery, bootstrap. <br />
 			C# Desktop: Model-view-presenter based Windows platform applications using libraries such as Infragistics and DevExpress. <br />
 			C# Web: MVC3 asp.net applications with Entity Framework back-end.  <br />
 			Java Web: Spring Framework with Hibernate back-end. <br /> 
-			Ruby: using Ruby on Rails web framework. <br />
 			Python: mostly in regards to my <a href="showFFT.shtml">lights project</a>. 
 			</p>
 		</div>
@@ -58,11 +60,26 @@
 
 	<div class="row-fluid">
 		<div class="span3">
+			<h4>WeWork</h4>
+		</div>
+		<div class="span9">
+			<p>Software Engineer</p>
+			<p>March 2013 - September 2013</p>
+			<p>Technologies Used: Rails3, Javascript, HTML5, CSS3, jQuery, Bootstrap</p>
+			<ul>
+				<li>Worked on a team implementing a social network connecting entrepreneus and small businesses with one another. </li>
+				<li>Designed and implemented an interface to control the content for TVs at any one of our buildings (spanning from San Francisco to New York). </li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="row-fluid">
+		<div class="span3">
 			<h4>Green Charge Networks</h4>
 		</div>
 		<div class="span9">
 			<p>Software Engineer</p>
-			<p>November 2011 - present</p>
+			<p>November 2011 - March 2013</p>
 			<p>Technologies Used: C#- .NET 4, MVC3 asp.net, Entity Framework, Silverlight; Java- Spring, Maven, Hibernate;</p>
 			<ul>
 				<li>Designed and implemented heat map visualization algorithms to view electrical structure loads on map applications for utility companies. </li>
